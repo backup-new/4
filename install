@@ -47,7 +47,6 @@ echo ""
 echo -e "\033[1;31m ATENCAO \033[1;33m!!!"
 echo ""
 echo -ne "\033[1;32m INFORME A MESMA SENHA\033[1;37m: "; read senha
-echo -e "\033[1;32mOK\033[1;37m"
 sleep 1
 mysql -h localhost -u root -p$senha -e "CREATE DATABASE sshplus"
 clear
